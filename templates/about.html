@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Routing and View Functions</title>
+</head>
+<body>
+<h1>About Routing and View Functions</h1>
+<p>What is '@app.route()' and what are View Functions?</p>
+<p>
+    View functions in Flask are the heart of handling requests and generating responses
+    in Flask web applications.
+</p>
+<p>
+
+    View functions are defined using the '@app.route()' decorator in Flask,
+    where @app refers to the Flask application instance. The decorator associates
+    the function with a specific URL (Uniform Resource Locator) route, allowing
+    Flask to map incoming requests to the corresponding view function.
+
+</p>
+<p>
+
+    When a user makes an HTTP (Hypertext Transfer Protocol) to a specific URL, Flask
+    matches the URL to the registered routes and invokes the associated view function.
+    The view function then performs the necessary logic to handle the request,
+    such as accessing databases, performing computations, or rendering templates.
+
+<p>
+
+    A view function in Flask can be any Python function that the user defines, as
+    long as it is decorated with the '@app.route()' decorator and associated with a
+    specific URL route. The view function can perform various tasks and generate different
+    types of responses based on the logic the user implements.
+
+</p>
+<p>
+
+    The term "view function" in Flask is derived from the concept of the Model-View-Controller (MVC)
+    architectural pattern commonly used in web development. In MVC, the "view" is responsible for
+    presenting data to the user and handling user interactions. The term "view" does not refer to the
+    visual presentation of the web page or application interface, but rather to the logical
+    component that handles the request and generates the response. It encapsulates the logic and
+    the behavior associated with the specific URL or route.
+
+</p>
+
+</body>
+</html>
